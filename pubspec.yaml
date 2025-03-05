@@ -46,7 +46,7 @@ dev_dependencies:
 flutter_icons:
   android: true
   ios: true
-  image_path: 'assets/icon/newslogo.jpeg'
+  image_path: 'assets/icon/world-news.png'
   adaptive_icon_background: '#ffffff' # Optional for Android adaptive icons
   adaptive_icon_foreground: 'assets/icon/world-news.png' # Optional for Android adaptive icons
 
