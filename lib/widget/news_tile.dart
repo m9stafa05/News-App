@@ -11,15 +11,15 @@ class NewsTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      // onTap: () {
-      //   Navigator.of(context).push(
-      //     MaterialPageRoute(
-      //       builder: (context) {
-      //         // NewsWebViewScreen();
-      //       },
-      //     ),
-      //   );
-      // },
+      onTap: () {
+       /*  Navigator.of(context).push(
+          MaterialPageRoute(
+            builder: (context) {
+              NewsWebViewScreen();
+            },
+          ),
+        ); */
+      },
       child: Padding(
         padding: const EdgeInsets.all(15),
         child: Column(
