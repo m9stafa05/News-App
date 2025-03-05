@@ -48,6 +48,7 @@ flutter_icons:
   ios: true
   image_path: 'assets/icon/newslogo.jpeg'
   adaptive_icon_background: '#ffffff' # Optional for Android adaptive icons
+  adaptive_icon_foreground: 'assets/icon/world-news.png' # Optional for Android adaptive icons
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

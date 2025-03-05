@@ -25,7 +25,7 @@ class _WebViewAppState extends State<WebViewApp> {
         ..setJavaScriptMode(
             JavaScriptMode.unrestricted,
           ) // Enable JavaScript
-          ..setBackgroundColor(Colors.transparent)
+          ..setBackgroundColor(const Color(0x00000000))
           ..loadRequest(Uri.parse(widget.url));
   }
 
