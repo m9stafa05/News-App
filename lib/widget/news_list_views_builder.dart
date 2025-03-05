@@ -51,12 +51,7 @@ class _NewsListViewBulderState
             hasScrollBody: false,
             child: Center(
               child: CircularProgressIndicator(
-                color: Color.fromRGBO(
-                  17,
-                  16,
-                  16,
-                  1,
-                ),
+                color: Color(0xFF000000),
                 strokeWidth: 5,
               ),
             ),
