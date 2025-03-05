@@ -2,9 +2,11 @@ class ArticleModel {
   String? image;
   String? title;
   String? subTitle;
+  String? url;
   // final Source source;
 
   ArticleModel({
+    required this.url,
     // required this.source,
     required this.image,
     required this.title,
@@ -17,6 +19,7 @@ class ArticleModel {
         id: article['source']['id'],
         name: article['source']['name'],
       ), */
+      url: json['url'],
       image: json['urlToImage'],
       title: json['title'],
       subTitle: json['description'],

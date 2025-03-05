@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:news_app/models/article_model.dart';
+import 'package:news_app/views/web_view.dart';
 // import 'package:webview_flutter/webview_flutter.dart';
 
 class NewsTile extends StatelessWidget {
@@ -12,13 +13,16 @@ class NewsTile extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
-       /*  Navigator.of(context).push(
+        Navigator.of(context).push(
           MaterialPageRoute(
             builder: (context) {
-              NewsWebViewScreen();
+              return WebViewApp(
+                url: articlesModel.url ?? '',
+                title: articlesModel.title ?? '',
+              );
             },
           ),
-        ); */
+        );
       },
       child: Padding(
         padding: const EdgeInsets.all(15),
